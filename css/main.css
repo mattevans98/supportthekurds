@@ -1,0 +1,41 @@
+/* General Element Styling */
+
+body, html, section {
+    height: 100%;
+}
+
+body {
+    background-color: #171717;
+}
+
+h1, h2, h3, h4, p {
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+a, a:hover, a:visited {
+    color: dodgerblue;
+}
+
+/* Splash Screen Styles */
+
+section {
+    background-color: black;
+}
+
+section h1, section h2 {
+    color: white;
+}
+
+#splash_btn {
+    border-radius: 4px;
+    color: lightgrey;
+    background-color: dimgray;
+    width: 5em;
+    height: 2em;
+    font-size: 1.5em;
+    border: 1px solid gray;
+}
